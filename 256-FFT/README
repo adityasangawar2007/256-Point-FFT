@@ -1,0 +1,20 @@
+Simulated fft design at 300 MHz.
+Simulation successful for RealOut, debug in progress for ImagOut using VCS and NCVerilog
+Synthesis in Progress.
+
+
+scrambler_mux.v - Input muxes to the state machine
+processing_block - State machine to do the fft calculation
+outputbuffer.v - Module that send result out serially
+input_mux.v - Select mux feedback inputs based on the stage and cycle
+butterfly.v - Butterfly calculation module
+fourbutterfly.v - 4 butterfly calculation at one time
+FFTScramblerBit.v - Combinational circuit to get input in correct format
+FFTDesign.xlsx - Excel sheet to do calculations and tracking work items
+fft.v - Design file
+databuffer.v - fetches inout data serially
+DW02_mult_3_stage.v - Multiplier module
+top.v - top module with testbench
+
+simres.txt - Simulation results
+results.txt - Final run results

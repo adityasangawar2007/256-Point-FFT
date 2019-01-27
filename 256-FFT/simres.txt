@@ -1,0 +1,32 @@
+/apps/synopsys/VCSMX_NEW/bin/vcs
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 27 (Twenty Seven)' is not supported on 
+  'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '4.16.3-200.fc27.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Fri May  4 12:18:15 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "top.sv" cannot be opened for reading due to 'No such file or 
+  directory'.
+  Please fix above issue and compile again.
+  
+  
+
+1 error
+CPU time: .061 seconds to compile

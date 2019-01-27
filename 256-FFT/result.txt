@@ -1,0 +1,6 @@
+runfft script run started on Sun Apr 22 17:09:19 2018
+run on machine coe-ee-cad23.sjsuad.sjsu.edu
+
+Run with a clock period of 5.0
+options syn False gates False
+VCS FAILED TO WORK
